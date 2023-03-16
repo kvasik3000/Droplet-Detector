@@ -1,7 +1,7 @@
 
 def rep(str):
-  str.split()
-  return str
+  k = str.split()
+  return k
   
 
 
