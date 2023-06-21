@@ -1,7 +1,6 @@
 import unittest
 import cv2
 import os
-import numpy as np
 from draw import draw_contours_of_drops
 
 
