@@ -1,4 +1,3 @@
-import cv2
 import numpy as np
 import pytest
 from calculate import calculate_area, get_sum, update_sum
