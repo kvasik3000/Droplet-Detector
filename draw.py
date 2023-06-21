@@ -9,6 +9,7 @@ def draw_contours_of_drops(img_path):
     img = cv2.imread(img_path)
     copy = img
     imgc = img.copy()
+    print(type(imgc))
 
     img = cv2.medianBlur(img, 3)
 
@@ -24,6 +25,7 @@ def draw_contours_of_drops(img_path):
     sobel_f = cv2.Sobel(img, cv2.CV_64F, 2, 0, 7)
     abs_sobel_f = np.absolute(sobel_f)
     sobel = np.uint8(abs_sobel_f)
+    print(type(sobel))
 
     # применяем размытие Гаусса для уменьшения шума
     img_blurred = (cv2.GaussianBlur(img, (2 * 2 + 1, 2 * 2 + 1), 0))
@@ -47,9 +49,13 @@ def draw_contours_of_drops(img_path):
 
     # применяем маску к изображению
     masked_img = cv2.bitwise_and(img, img, mask=mask)
+    print(type(masked_img))
 
     # рисуем маску на изображении
-    contours, hierarchy = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contours, hierarchy = cv2.findContours(
+        mask,
+        cv2.RETR_EXTERNAL,
+        cv2.CHAIN_APPROX_SIMPLE)
 
     cv2.fillPoly(mask, contours, (255, 255, 0))
 
