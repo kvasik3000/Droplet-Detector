@@ -1,4 +1,4 @@
-import cv2 # type: ignore
+import cv2  # type: ignore
 from do_xslx import do_df
 
 sum_area_s = 0
