@@ -1,5 +1,5 @@
 import pandas as pd
-import cv2 # type: ignore
+import cv2  # type: ignore
 from openpyxl import Workbook
 
 num_of_table = 0
