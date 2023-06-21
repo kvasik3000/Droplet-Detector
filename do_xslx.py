@@ -38,7 +38,7 @@ def to_exel(data):
 
     # Получаем активный лист
     sheet = workbook.active
-
+    print(sheet)
     # Сохраняем рабочую книгу в файл
     workbook.save(f'exel/new{num_of_table}.xlsx')
 
