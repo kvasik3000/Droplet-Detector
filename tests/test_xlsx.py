@@ -1,6 +1,4 @@
 import pandas as pd
-import cv2
-from openpyxl import Workbook
 import numpy as np
 from do_xslx import get_num, update_num, do_df, to_exel
 import pytest
