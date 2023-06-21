@@ -16,7 +16,8 @@ def start(message):
     btn2 = types.KeyboardButton('Help❓')
 
     markup.row(btn1, btn2)
-    bot.send_message(message.chat.id, "Привет, {0.first_name}!".format(message.from_user), reply_markup=markup)
+    bot.send_message(message.chat.id, "Привет, {0.first_name}!".format(message.from_user),
+                     reply_markup=markup)
     bot.send_message(message.chat.id, "🔸Я бот🤖, который может:\n"
                                       "🔸Отрисовать контур капель на фотографии💦\n"
                                       "🔸Вычислить площадь каждой капли🧮\n"
