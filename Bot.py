@@ -1,4 +1,4 @@
-import telebot
+import telebot  # type: ignore
 from telebot import types
 from draw import draw_contours_of_drops
 from do_xslx import get_num
