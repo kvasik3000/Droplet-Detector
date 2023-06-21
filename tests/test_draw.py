@@ -27,7 +27,10 @@ class TestDrawContoursOfDrops(unittest.TestCase):
         img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
         # Проверяем, что контуры были успешно нарисованы на изображении
-        contours, _ = cv2.findContours(img_gray, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        contours, _ = cv2.findContours(
+            img_gray,
+            cv2.RETR_EXTERNAL,
+            cv2.CHAIN_APPROX_SIMPLE)
         self.assertGreater(len(contours), 0)
 
 
