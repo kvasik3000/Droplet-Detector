@@ -1,6 +1,6 @@
 import cv2  # type: ignore
 import numpy as np
-from get_contours import get_contours
+from ../get_contours import get_contours
 
 
 def test_get_contours():
