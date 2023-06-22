@@ -1,4 +1,5 @@
 # Droplet-Detector
+![Build Status](https://github.com/kvasik3000/Droplet-Detector/actions/workflows/python-app.yml/badge.svg?branch=main)
 (какое-то превью надо)
 
 ## Введение
