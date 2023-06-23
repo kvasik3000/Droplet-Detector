@@ -3,7 +3,7 @@ import pytest
 import sys
 sys.path.append('..')  # noqa
 
-from calculate import calculate_area, get_sum, update_sum  # type: ignore
+from calculate import calculate_area, get_sum, update_sum  # type: ignore  # noqa
 
 
 @pytest.fixture
