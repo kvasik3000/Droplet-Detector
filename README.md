@@ -66,10 +66,12 @@
 
 Команда для начала работы проекта
 
-'''
 - docker run nekrasovaanna/droplet-detector
-'''
 
+## Установка с Pypi и запуск
+```
+pip install Droplet_Detector
+```
 ## Источники
 
 - https://www.geeksforgeeks.org/python-opencv-canny-function/
