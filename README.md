@@ -63,7 +63,8 @@
 
 ## DockerHub 
 - https://hub.docker.com/repository/docker/nekrasovaanna/droplet-detector/general
-
+Команда для начала работы проекта
+- docker run nekrasovaanna/droplet-detector
 
 ## Источники
 
