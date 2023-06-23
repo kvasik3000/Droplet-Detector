@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 import sys
-sys.path.append('..')  # noqa
+sys.path.insert(0,'..')  # noqa
 
 from calculate import calculate_area, get_sum, update_sum  # type: ignore  # noqa
 
