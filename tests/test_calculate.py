@@ -1,6 +1,7 @@
 import numpy as np
 import pytest
 import sys
+import os
 sys.path.append(os.path.abspath("Droplet-Detector/"))  # noqa
 
 from calculate import calculate_area, get_sum, update_sum  # type: ignore  # noqa
