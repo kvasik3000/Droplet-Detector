@@ -61,7 +61,8 @@ def to_excel(data: DataFrame) -> None:
     workbook = Workbook()
     sheet = workbook.active  # Получаем активный лист
     print(sheet)
-    workbook.save(f'excel/new{num_of_table}.xlsx')  # Сохраняем рабочую книгу в файл
+    # Сохраняем рабочую книгу в файл
+    workbook.save(f'excel/new{num_of_table}.xlsx') 
     data.to_excel(f'excel/new{num_of_table}.xlsx')
     num_of_table += 1
     update_num(num_of_table)
