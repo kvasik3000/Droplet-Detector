@@ -8,7 +8,7 @@ from do_xslx import get_num, update_num, do_df, to_exel  # type: ignore  # noqa
 
 
 def test_get_num():
-    assert get_num() == 1
+    assert get_num() == 4
 
 
 def test_update_num():
