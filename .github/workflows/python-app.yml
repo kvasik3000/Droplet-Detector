@@ -33,4 +33,5 @@ jobs:
           python tests/test_calculate.py
           python tests/test_countours.py
           python tests/test_draw.py
+          python tests/test_xlsx.py
    
