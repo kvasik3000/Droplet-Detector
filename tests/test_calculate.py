@@ -1,13 +1,12 @@
-import sys
-
-from os.path import dirname, join, abspath
-sys.path.insert(0, abspath(join(dirname(__file__), '..')))  # noqa
 import numpy as np
 import pytest
 # import sys
 # import os
 # sys.path.append(os.path.abspath(".."))  # noqa
+import sys
 
+from os.path import dirname, join, abspath
+sys.path.insert(0, abspath(join(dirname(__file__), '..')))  # noqa
 from calculate import calculate_area, get_sum, update_sum  # type: ignore  # noqa
 
 
