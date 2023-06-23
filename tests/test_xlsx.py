@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
-from do_xslx import get_num, update_num, do_df, to_exel
+import sys
+
+from os.path import dirname, join, abspath
+sys.path.insert(0, abspath(join(dirname(__file__), '..')))  # noqa
+from do_xslx import get_num, update_num, do_df, to_exel  # type: ignore  # noqa
 import pytest
 
 
