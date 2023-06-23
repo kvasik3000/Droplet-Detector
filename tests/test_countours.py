@@ -1,6 +1,10 @@
 import cv2  # type: ignore
 import numpy as np
-from get_contours import get_contours
+import sys
+
+from os.path import dirname, join, abspath
+sys.path.insert(0, abspath(join(dirname(__file__), '..')))  # noqa
+from get_contours import get_contours  # type: ignore  # noqa
 
 
 def test_get_contours():
