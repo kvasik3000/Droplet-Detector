@@ -1,5 +1,6 @@
 # Droplet-Detector
 ![Build Status](https://github.com/kvasik3000/Droplet-Detector/actions/workflows/python-app.yml/badge.svg?branch=main)
+[![codecov](https://codecov.io/gh/kvasik3000/Droplet-Detector/branch/main/graph/badge.svg)](https://codecov.io/gh/kvasik3000/Droplet-Detector)
 
 ![droplet](https://github.com/kvasik3000/Droplet-Detector/assets/124969658/c1928e58-414d-49ef-97dd-20d10441bfd5)
 
@@ -78,13 +79,17 @@ pip install Droplet_Detector
 ```
 mkdir exel,new_file,save_docs
 ```
-Импортируйте модуль Bot.py
+Импортируйте модуль Bot.py в вашем файле .py
 ```
 from Droplet_Detector import Bot
 ```
 Запустите бота написав 
 ```
 Bot.start()
+```
+Cсылка на бота 
+```
+https://t.me/Droplet_Detector_bot
 ```
 ## Источники
 
