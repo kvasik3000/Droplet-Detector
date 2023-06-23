@@ -1,6 +1,8 @@
 import numpy as np
 import pytest
-from Droplet-Detector.calculate import calculate_area, get_sum, update_sum  # type: ignore
+import sys
+sys.path.append('..')
+from calculate import calculate_area, get_sum, update_sum  # type: ignore
 
 
 @pytest.fixture
