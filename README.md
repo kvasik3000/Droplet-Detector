@@ -2,6 +2,7 @@
 ![Build Status](https://github.com/kvasik3000/Droplet-Detector/actions/workflows/python-app.yml/badge.svg?branch=main)
 <img src = "https://img.shields.io/badge/Code%20Coverage-80%25-success?">
 <img src = 'https://img.shields.io/github/contributors/kvasik3000/Droplet-Detector?'>  
+<img src ='https://img.shields.io/github/repo-size/kvasik3000/Droplet-Detector?'>
 
 ![droplet](https://github.com/kvasik3000/Droplet-Detector/assets/124969658/c1928e58-414d-49ef-97dd-20d10441bfd5)
 
