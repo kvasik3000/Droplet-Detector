@@ -29,6 +29,6 @@ jobs:
       - name: Run mypy
         run: mypy .
       - name: Run tests
-        run: test_countours.py
+        run: test_calculate.py
 
    
