@@ -5,9 +5,9 @@
 :copyright: (c) 2023 kvasik3000
 """
 
-from .calculate import *
-from .get_contours import *
-from .Bot import *
-from .draw import *
-from .do_xslx import *
+from .calculate import *  # noqa
+from .get_contours import *  # noqa
+from .Bot import *  # noqa
+from .draw import *  # noqa
+from .do_xslx import *  # noqa
 

@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from get_contours import get_contours
+from Droplet_Detector.get_contours import get_contours
 
 
 def draw_contours_of_drops(img_path):

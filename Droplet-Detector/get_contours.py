@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from calculate import calculate_area
+from Droplet_Detector.calculate import calculate_area
 
 
 def get_contours(img):
