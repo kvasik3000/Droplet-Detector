@@ -55,7 +55,7 @@ def do_df(contours: List) -> DataFrame:
     return df
 
 
-def to_excel(data: DataFrame) -> None:
+def to_exel(data: DataFrame) -> None:
     """
     Сохраняет DataFrame в файл формата Excel.
 
