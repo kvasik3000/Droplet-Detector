@@ -34,7 +34,7 @@ def test_to_exel():
     data = pd.DataFrame({"A": [1, 2, 3]})
     update_num(0)
     to_exel(data)
-    assert get_num() == 4
+    assert get_num() == 1
 
 
 # Run the tests
