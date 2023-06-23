@@ -11,7 +11,7 @@ from draw import draw_contours_of_drops  # type: ignore  # noqa
 class TestDrawContoursOfDrops(unittest.TestCase):
     def test_draw_contours_of_drops(self):
         # Подготавливаем данные для теста
-        img_path = 'save_docs/KzfBhfjYMGA.jpg'
+        img_path = 'save_docs/272976809013211.png'
 
         # Вызываем функцию, которую необходимо протестировать
         result = draw_contours_of_drops(img_path)
