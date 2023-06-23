@@ -3,8 +3,16 @@ import numpy as np
 from get_contours import get_contours
 
 
-def draw_contours_of_drops(img_path):
-    # читаем пикчу и сохраняем копию
+def draw_contours_of_drops(img_path: str) -> str:
+    """
+    Рисует контуры капель на изображении.
+
+    Аргументы:
+    - img_path (str): Путь к изображению.
+
+    Возвращает:
+    - str: Путь к сохраненному изображению с контурами капель.
+    """
 
     img = cv2.imread(img_path)
     copy = img
