@@ -10,4 +10,3 @@ from .get_contours import *  # noqa
 from .Bot import *  # noqa
 from .draw import *  # noqa
 from .do_xslx import *  # noqa
-
