@@ -1,5 +1,5 @@
 import cv2
-from Droplet_Detector.do_xslx import do_df
+from Droplet_Detector.do_xslx import do_df  # type: ignore
 
 sum_area_s = 0
 

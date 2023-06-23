@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
-from Droplet_Detector.draw import draw_contours_of_drops
-from Droplet_Detector.do_xslx import get_num
-from Droplet_Detector.calculate import get_sum
+from Droplet_Detector.draw import draw_contours_of_drops  # type: ignore
+from Droplet_Detector.do_xslx import get_num  # type: ignore
+from Droplet_Detector.calculate import get_sum  # type: ignore
 
 # Создаем экземпляр бота
 bot = telebot.TeleBot('6050349643:AAHh6MT-s12_9niKl_GwiYRt79NLXDvUk7A')
