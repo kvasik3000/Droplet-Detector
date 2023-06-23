@@ -1,8 +1,5 @@
 import numpy as np
 import pytest
-# import sys
-# import os
-# sys.path.append(os.path.abspath(".."))  # noqa
 import sys
 
 from os.path import dirname, join, abspath
