@@ -65,12 +65,26 @@
 - https://hub.docker.com/repository/docker/nekrasovaanna/droplet-detector/general
 
 Команда для начала работы проекта
-
-- docker run nekrasovaanna/droplet-detector
+```
+docker run nekrasovaanna/droplet-detector
+```
 
 ## Установка с Pypi и запуск
+Установите библиотеку Droplet_Detector в рабочую область
 ```
 pip install Droplet_Detector
+```
+Перед запуском создайте папки в рабочей области "exel", "new_file" and "save_docs"
+```
+mkdir exel,new_file,save_docs
+```
+Импортируйте модуль Bot.py
+```
+from Droplet_Detector import Bot
+```
+Запустите бота написав 
+```
+Bot.start()
 ```
 ## Источники
 
