@@ -1,5 +1,5 @@
-import telebot
-from telebot import types
+import telebot  # type: ignore
+from telebot import types  # type: ignore
 from Droplet_Detector.draw import draw_contours_of_drops  # type: ignore
 from Droplet_Detector.do_xslx import get_num  # type: ignore
 from Droplet_Detector.calculate import get_sum  # type: ignore
