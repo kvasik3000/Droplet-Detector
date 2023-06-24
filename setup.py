@@ -7,7 +7,7 @@ from setuptools import setup  # type: ignore
 :copyright: (c) 2023 kvasik3000
 """
 
-version = '0.1'
+version = '0.1.2'
 
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
