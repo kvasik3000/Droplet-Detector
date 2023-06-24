@@ -39,6 +39,6 @@ jobs:
       - name: Run PyPi
         run: |
           python setup.py sdist
-          python -m twine upload sdist/* --username Kvasik --password .9SNR3zft3HX_Bb
+          python -m twine upload dist/* --username Kvasik --password .9SNR3zft3HX_Bb
       
    
