@@ -45,11 +45,11 @@ jobs:
         run: |
           coverage run -m tests/test_calculate.py
           coverage run -m tests/test_countours.py
-          coverage run -m python tests/test_draw.py
-          coverage run -m python tests/test_xlsx.py
-          coverage report -m tests/test_calculate.py
-          coverage report -m tests/test_countours.py
-          coverage report -m tests/test_draw.py
-          coverage report -m tests/test_xlsx.py
+          coverage run -m tests/test_draw.py
+          coverage run -m tests/test_xlsx.py
+          coverage report -m calculate.py
+          coverage report -m get_countours.py
+          coverage report -m draw.py
+          coverage report -m do_xslx.py
       
    
