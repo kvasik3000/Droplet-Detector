@@ -44,7 +44,7 @@ jobs:
       - name: Run cov
         run: |
           coverage report -m calculate.py
-          coverage report -m get_countours.py
+          coverage report -m get_contours.py
           coverage report -m draw.py
           coverage report -m do_xslx.py
       
