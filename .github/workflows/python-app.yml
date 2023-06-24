@@ -37,10 +37,10 @@ jobs:
           python tests/test_countours.py
           python tests/test_draw.py
           python tests/test_xlsx.py
-      - name: Run PyPi
-        run: |
-          python setup.py sdist
-          python -m twine upload dist/* --username Kvasik --password .9SNR3zft3HX_Bb
+#       - name: Run PyPi
+#         run: |
+#           python setup.py sdist
+#           python -m twine upload dist/* --username Kvasik --password .9SNR3zft3HX_Bb
       - name: Run cov
         run: |
           coverage run -m tests/test_calculate.py
