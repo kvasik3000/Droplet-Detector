@@ -1,4 +1,4 @@
-import cv2
+import cv2  # type: ignore
 import numpy as np
 from Droplet_Detector.get_contours import get_contours  # type: ignore
 

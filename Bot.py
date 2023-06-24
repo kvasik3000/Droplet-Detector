@@ -11,6 +11,9 @@ global_src = ' '
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    """
+    Обработчик команды /start. Отправляет приветственное сообщение и меню.
+    """
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton('Меню 🗃')
     btn2 = types.KeyboardButton('Help❓')
@@ -30,6 +33,10 @@ def start(message):
 
 @bot.message_handler(content_types=['document'])
 def handle_docs_photo(message):
+    """
+    Обработчик загрузки документа (фотографии). Сохраняет фотографию и
+    отправляет ее обратно.
+    """
     try:
 
         file_down = bot.get_file(message.document.file_id)
@@ -57,6 +64,9 @@ def handle_docs_photo(message):
 
 @bot.message_handler(content_types=['text'])
 def one_click(message):
+    """
+    Обработчик нажатий на кнопки меню.
+    """
     if message.text == 'Меню 🗃':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         item1 = types.KeyboardButton('Отрисовать контура капель')

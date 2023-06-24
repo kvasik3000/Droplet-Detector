@@ -1,8 +1,15 @@
 # Droplet-Detector
-![Build Status](https://github.com/kvasik3000/Droplet-Detector/actions/workflows/python-app.yml/badge.svg?branch=main)
 
 ![droplet](https://github.com/kvasik3000/Droplet-Detector/assets/124969658/c1928e58-414d-49ef-97dd-20d10441bfd5)
 
+---
+
+![Build Status](https://github.com/kvasik3000/Droplet-Detector/actions/workflows/python-app.yml/badge.svg?branch=main)
+<img src = "https://img.shields.io/badge/Code%20Coverage-80%25-success?">
+<img src = 'https://img.shields.io/github/contributors/kvasik3000/Droplet-Detector?'>  
+<img src ='https://img.shields.io/github/repo-size/kvasik3000/Droplet-Detector?'>
+
+---
 
 ## Введение
 Перед нашей командой стояла задача создать простой в использовании проект, который будет рисовать контуры капель. Также было необходимо написать код для подсчёта пикселей каждой капли и добавить возможность сохранять данные в виде таблицы. Эта работа позволила нам глубже изучить компьютерное зрение с помощью библиотек **OpenCV2** в Python, научиться работать в команде и дала возможность создать собственного телеграмм-бота.
@@ -65,8 +72,31 @@
 - https://hub.docker.com/repository/docker/nekrasovaanna/droplet-detector/general
 
 Команда для начала работы проекта
-- docker run nekrasovaanna/droplet-detector
+```
+docker run nekrasovaanna/droplet-detector
+```
 
+## Установка с Pypi и запуск
+Установите библиотеку Droplet_Detector в рабочую область
+```
+pip install Droplet_Detector
+```
+Перед запуском создайте папки в рабочей области "exel", "new_file" and "save_docs"
+```
+mkdir exel,new_file,save_docs
+```
+Импортируйте модуль Bot.py в вашем файле .py
+```
+from Droplet_Detector import Bot
+```
+Запустите бота написав 
+```
+Bot.start()
+```
+Cсылка на бота 
+```
+https://t.me/Droplet_Detector_bot
+```
 ## Источники
 
 - https://www.geeksforgeeks.org/python-opencv-canny-function/

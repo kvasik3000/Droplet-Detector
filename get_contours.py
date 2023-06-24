@@ -3,7 +3,16 @@ import numpy as np
 from calculate import calculate_area
 
 
-def get_contours(img):
+def get_contours(img: np.ndarray) -> np.ndarray:
+    """
+    Получает контуры изображения.
+
+    Аргументы:
+    - img (np.ndarray): Исходное изображение.
+
+    Возвращает:
+    - np.ndarray: Массив контуров.
+    """
     copy = img
 
     img = cv2.medianBlur(img, 3)
