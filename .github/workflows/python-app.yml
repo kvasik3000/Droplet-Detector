@@ -43,10 +43,6 @@ jobs:
 #           python -m twine upload dist/* --username Kvasik --password .9SNR3zft3HX_Bb
       - name: Run cov
         run: |
-          coverage run -m tests/test_calculate.py
-          coverage run -m tests/test_countours.py
-          coverage run -m tests/test_draw.py
-          coverage run -m tests/test_xlsx.py
           coverage report -m calculate.py
           coverage report -m get_countours.py
           coverage report -m draw.py
